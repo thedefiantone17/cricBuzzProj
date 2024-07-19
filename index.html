@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignnment | shapes, color & copies</title>
+    <style>
+        /* shapes css */
+        .Square{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .Circle{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .cont{
+            display: flex;
+            justify-content: space-around;
+            gap: 5px;
+            margin:10px;
+            border: 1px solid;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <input type="number" id="num">
+        <button id="addbtn">add</button>
+        <input type="color" name="" id="color">
+        <select>
+            <option>Circle</option>
+            <option>Square</option>
+        </select>
+    </div>
+
+    <div class="cont"></div>
+    
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
